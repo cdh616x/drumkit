@@ -8,6 +8,7 @@ for (var i = 0; i<document.querySelectorAll(".drum").length; i++) {
 document.addEventListener("keydown", function(event) {
   makeSound(event.key);
   buttonAnimation(event.key);
+  console.log(event)
 });
 
 function makeSound(key) {
@@ -79,3 +80,7 @@ function buttonAnimation(currentKey) {
   }, 100);
 
 }
+
+$("h1").on("click", function() {
+  $("h1").animate({opacity: 0.5}, 1000).animate({opacity: 1}, 1000).animate({opacity: 0.5}, 1000).animate({opacity: 1}, 1000).animate({opacity: 0.5}, 1000).animate({opacity: 1}, 1000);
+});

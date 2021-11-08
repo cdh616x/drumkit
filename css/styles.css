@@ -1,13 +1,14 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #55DCE6;
+  margin: 0 15% 0;
 }
 
 h1 {
+  color: #EB3838;
   font-size: 5rem;
-  color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 9px 0 #DA0463;
+  text-shadow: 4px 0 #3B45D1;
   margin-bottom: 5%;
 
 }
@@ -15,38 +16,6 @@ h1 {
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
-}
-
-.w {
-
-}
-
-.a {
-
-}
-
-.s {
-
-}
-
-.t {
-
-}
-
-.d {
-
-}
-
-.j {
-
-}
-
-.k {
-
-}
-
-.l {
-
 }
 
 .set {
@@ -60,7 +29,6 @@ footer {
 
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
 }
 
 .red {
@@ -74,13 +42,61 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: white;
   border-radius: 15px;
+  border-color: gray;
   display: inline-block;
   width: 150px;
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: black;
+}
+
+.w {
+
+}
+
+.r {
+  background-color: #F59738;
+}
+
+.e {
+  background-color: #F59738;
+}
+
+.f {
+  background-color: #30BAFF;
+}
+
+.a {
+  background-color: #EB3838;
+}
+
+.s {
+  background-color: #3B45D1;
+}
+
+.t {
+  background-color: #F7C859;
+}
+
+.y {
+  background-color: #F7C859;
+}
+
+.d {
+  background-color: #30BAFF;
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
 }
