@@ -22,6 +22,11 @@ function makeSound(key) {
     snare.play();
       break;
 
+    case "f":
+    var snare3 = new Audio("sounds/snare-on.mp3");
+    snare3.play();
+      break;
+
     case "t":
     var closedHat = new Audio("sounds/closed-hat.mp3");
     closedHat.play();
