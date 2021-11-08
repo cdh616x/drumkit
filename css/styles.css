@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #55DCE6;
+  background-color: #DBEDF3;
   margin: 0 15% 0;
 }
 
@@ -29,6 +29,7 @@ footer {
 
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 50%;
 }
 
 .red {
@@ -51,10 +52,6 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: black;
-}
-
-.w {
-
 }
 
 .r {
@@ -89,14 +86,18 @@ footer {
   background-color: #30BAFF;
 }
 
-.j {
-
+.z {
+background-color: #EB3838;
 }
 
-.k {
-
+.x {
+  background-color: #3B45D1;
 }
 
-.l {
+.c {
+  background-color: #30BAFF;
+}
 
+.v {
+  background-color: #30BAFF;
 }
