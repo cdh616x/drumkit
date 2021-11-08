@@ -27,6 +27,11 @@ function makeSound(key) {
     closedHat.play();
       break;
 
+    case "y":
+    var openHat = new Audio("sounds/open-hat.mp3");
+    openHat.play();
+      break;
+
     case "r":
     var crash = new Audio("sounds/crash.mp3");
     crash.play();
@@ -37,13 +42,13 @@ function makeSound(key) {
     snare2.play();
       break;
 
-    case "j":
-    var tom2 = new Audio("sounds/tom-2.mp3");
+    case "c":
+    var tom2 = new Audio("sounds/conga-hit.mp3");
     tom2.play();
       break;
-t
-    case "k":
-    var tom3 = new Audio("sounds/tom-3.mp3");
+
+    case "x":
+    var tom3 = new Audio("sounds/bongo-hit.mp3");
     tom3.play();
       break;
 
