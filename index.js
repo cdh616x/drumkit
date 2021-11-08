@@ -23,7 +23,7 @@ function makeSound(key) {
       break;
 
     case "t":
-    var closedHat = new Audio("sounds/crash.mp3");
+    var closedHat = new Audio("sounds/closed-hat.mp3");
     closedHat.play();
       break;
 
