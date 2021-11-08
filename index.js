@@ -27,19 +27,24 @@ function makeSound(key) {
     snare3.play();
       break;
 
+    case "e":
+    var crash = new Audio("sounds/crash.mp3");
+    crash.play();
+      break;
+
     case "t":
     var closedHat = new Audio("sounds/closed-hat.mp3");
     closedHat.play();
       break;
 
     case "y":
-    var openHat = new Audio("sounds/open-hat.mp3");
+    var openHat = new Audio("sounds/closed-hat2.mp3");
     openHat.play();
       break;
 
     case "r":
-    var crash = new Audio("sounds/crash.mp3");
-    crash.play();
+    var openHat = new Audio("sounds/open-hat.mp3");
+    openHat.play();
       break;
 
     case "d":
