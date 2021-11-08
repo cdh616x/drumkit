@@ -49,7 +49,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 10% 10% 10%;
 }
 
 .game-over {
@@ -82,4 +82,9 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.container-fluid {
+  margin-left: 10%;
+  margin-right: 10%;
 }
